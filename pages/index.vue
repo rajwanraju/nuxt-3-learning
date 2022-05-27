@@ -9,7 +9,9 @@ const info = ref(api);
     <Title>Nuxt 3 Learning</Title>
     <div class="container">
           <h1>Welcome to Restaurantly</h1>
+             <Products />
           <NuxtLink to="/shop">Go to restaurants</NuxtLink>
+       
         </div>
   </div>
 </template>
